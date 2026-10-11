@@ -1,0 +1,17 @@
+{
+  "Model_B": {
+    "model_id": "google/gemma-3-1b-it",
+    "adapter_dir": "models/gemma3-1b-bilingual",
+    "precision": "16bit"
+  },
+  "Model_A": {
+    "model_id": "google/gemma-3-1b-it",
+    "adapter_dir": "models/gemma3-1b-bilingual",
+    "precision": "4bit"
+  },
+  "Model_C": {
+    "model_id": "google/gemma-3-1b-it",
+    "adapter_dir": "models/gemma3-1b-bilingual",
+    "precision": "8bit"
+  }
+}

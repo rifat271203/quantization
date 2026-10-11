@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+debug-*.log
+models/
+
+*.zip
+data/*.jsonl
+pipeline/*.jsonl
+*.jsonl
+*.pdf
+data/raw_sources/

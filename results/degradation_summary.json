@@ -1,0 +1,70 @@
+{
+  "bangla": {
+    "16bit": {
+      "total": 1,
+      "hallucinations": 0,
+      "hallucination_rate": 0.0,
+      "avg_score": 1.6,
+      "error_categories": {
+        "NONE": 1
+      }
+    },
+    "8bit": {
+      "total": 1,
+      "hallucinations": 0,
+      "hallucination_rate": 0.0,
+      "avg_score": 0.9524,
+      "error_categories": {
+        "NONE": 1
+      }
+    },
+    "4bit": {
+      "total": 1,
+      "hallucinations": 1,
+      "hallucination_rate": 1.0,
+      "avg_score": 0.6666,
+      "error_categories": {
+        "FACT_SUB": 1
+      }
+    },
+    "degradation_analysis": {
+      "delta_16_to_8": 0.0,
+      "delta_8_to_4": 1.0,
+      "cliff_at_4bit_detected": true
+    }
+  },
+  "english": {
+    "16bit": {
+      "total": 1,
+      "hallucinations": 0,
+      "hallucination_rate": 0.0,
+      "avg_score": 1.4194,
+      "error_categories": {
+        "NONE": 1
+      }
+    },
+    "8bit": {
+      "total": 1,
+      "hallucinations": 0,
+      "hallucination_rate": 0.0,
+      "avg_score": 1.125,
+      "error_categories": {
+        "NONE": 1
+      }
+    },
+    "4bit": {
+      "total": 1,
+      "hallucinations": 1,
+      "hallucination_rate": 1.0,
+      "avg_score": 0.2962,
+      "error_categories": {
+        "FACT_SUB": 1
+      }
+    },
+    "degradation_analysis": {
+      "delta_16_to_8": 0.0,
+      "delta_8_to_4": 1.0,
+      "cliff_at_4bit_detected": true
+    }
+  }
+}

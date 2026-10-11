@@ -1,0 +1,13 @@
+transformers
+torch
+huggingface_hub
+accelerate
+pypdf
+pdfplumber
+openai
+anthropic
+peft
+trl
+datasets
+bitsandbytes
+matplotlib

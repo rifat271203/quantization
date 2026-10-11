@@ -1,0 +1,150 @@
+{
+  "agri_mechanization_2020": "train",
+  "agri_seed_rules_2020": "eval",
+  "disaster_sod_2019": "train",
+  "disaster_displacement_nap_2022": "train",
+  "disaster_displacement_strat_2021": "dev",
+  "disaster_emcrp_rpf": "eval",
+  "disaster_emcrp_esmf": "eval",
+  "edu_nep_2010": {
+    "split_policy": "chapter_level_fallback",
+    "reason": "Single-document domain: education contains only 1 document (edu_nep_2010, 28 chapters). A chapter-level split was deliberately executed so education has active representation in train (for LoRA fine-tuning), dev, and eval, rather than being restricted to evaluation only.",
+    "chapter_allocations": {
+      "train": {
+        "chapters": "Chapters 1-18",
+        "scope": "Aims & Objectives through Special Education / Bratachari",
+        "pages_bn": "1-53",
+        "pages_en": "1-57",
+        "seam_verification": "Page-aligned seam at BN p.53 / EN p.57. Zero overlapping-window chunks span the Chapter 18/19 boundary."
+      },
+      "dev": {
+        "chapters": "Chapters 19-21",
+        "scope": "Sports Education, Library, Examination & Evaluation",
+        "pages_bn": "54-60",
+        "pages_en": "58-64",
+        "seam_verification": "Page-aligned seam at BN p.60 / EN p.64. Zero overlapping-window chunks span the Chapter 21/22 boundary."
+      },
+      "eval": {
+        "chapters": "Chapters 22-28",
+        "scope": "Student Welfare, Admission, Teacher Training, Teacher Status, Curriculum, Administration, Special Initiatives",
+        "pages_bn": "61-79",
+        "pages_en": "65-86",
+        "seam_verification": "Page-aligned seam starting at BN p.61 / EN p.65. Zero chunks from Chapters 1-21 appear in eval."
+      }
+    }
+  },
+  "_metadata": {
+    "description": "Document-level and chapter-partitioned train/dev/eval split manifest",
+    "domain_stratification_analysis": {
+      "train": {
+        "domains_present": [
+          "agriculture",
+          "disaster",
+          "education"
+        ],
+        "documents": [
+          "agri_mechanization_2020",
+          "disaster_sod_2019",
+          "disaster_displacement_nap_2022",
+          "edu_nep_2010 (Ch 1-18)"
+        ],
+        "skew_flag": "Well-balanced (all 3 domains present)"
+      },
+      "dev": {
+        "domains_present": [
+          "disaster",
+          "education"
+        ],
+        "documents": [
+          "disaster_displacement_strat_2021",
+          "edu_nep_2010 (Ch 19-21)"
+        ],
+        "skew_flag": "FLAGGED: Agriculture absent from Dev. Reason: Agriculture contains only 2 documents total (agri_mechanization_2020 assigned to Train, agri_seed_rules_2020 assigned to Eval). Under whole-document assignment for agriculture, Dev cannot receive an agriculture document without breaking an agriculture document across splits."
+      },
+      "eval": {
+        "domains_present": [
+          "agriculture",
+          "disaster",
+          "education"
+        ],
+        "documents": [
+          "agri_seed_rules_2020",
+          "disaster_emcrp_rpf",
+          "disaster_emcrp_esmf",
+          "edu_nep_2010 (Ch 22-28)"
+        ],
+        "skew_flag": "Well-balanced (all 3 domains present; RPF and ESMF safely united in Eval)"
+      }
+    },
+    "emcrp_pairing_policy": {
+      "status": "RPF and ESMF united in Eval",
+      "reason": "Both documents belong to the Emergency Multi-Sector Rohingya Crisis Response Project (EMCRP) and share specialized terminology and institutional framework. To prevent cross-split leakage, both are strictly co-located in Eval."
+    },
+    "summary_counts": {
+      "train": {
+        "bn_qa_pairs": 2549,
+        "en_qa_pairs": 2899,
+        "total_qa_pairs": 5448,
+        "parallel_qa_pairs": 2540,
+        "domains": {
+          "agriculture": {
+            "bn": 110,
+            "en": 137,
+            "parallel": 110
+          },
+          "disaster": {
+            "bn": 2063,
+            "en": 2298,
+            "parallel": 2054
+          },
+          "education": {
+            "bn": 376,
+            "en": 464,
+            "parallel": 376
+          }
+        }
+      },
+      "dev": {
+        "bn_qa_pairs": 304,
+        "en_qa_pairs": 339,
+        "total_qa_pairs": 643,
+        "parallel_qa_pairs": 304,
+        "domains": {
+          "disaster": {
+            "bn": 253,
+            "en": 279,
+            "parallel": 253
+          },
+          "education": {
+            "bn": 51,
+            "en": 60,
+            "parallel": 51
+          }
+        }
+      },
+      "eval": {
+        "bn_qa_pairs": 1820,
+        "en_qa_pairs": 2644,
+        "total_qa_pairs": 4464,
+        "parallel_qa_pairs": 1813,
+        "domains": {
+          "agriculture": {
+            "bn": 143,
+            "en": 179,
+            "parallel": 143
+          },
+          "disaster": {
+            "bn": 1527,
+            "en": 2279,
+            "parallel": 1520
+          },
+          "education": {
+            "bn": 150,
+            "en": 186,
+            "parallel": 150
+          }
+        }
+      }
+    }
+  }
+}
