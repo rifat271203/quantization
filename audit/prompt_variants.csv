@@ -1,0 +1,5 @@
+tier,language,current_prompt_accuracy,variant_a_accuracy,variant_b_accuracy
+f16,bangla,32.33,31.0,35.33
+f16,english,47.33,44.67,47.33
+Q4_K_M,bangla,32.67,34.33,33.33
+Q4_K_M,english,44.67,43.0,44.67

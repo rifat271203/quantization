@@ -1,0 +1,114 @@
+================================================================================
+TASK 2: DOCUMENT VERSIONS AUDIT (ALL 8 DOCS)
+================================================================================
+
+--- agri_mechanization_2020 ---
+BN Source Path: data/raw_sources/agriculture/bn/agri_mechanization_policy_2020_bn.pdf
+EN Source Path: data/raw_sources/agriculture/en/agri_mechanization_policy_2020_en.pdf
+BN Page Count : 12
+EN Page Count : 18
+BN Page 1 (first 400 chars, ascii-escaped):
+  ' \n                                                                                 \n \n \n \n  \n \n\u099c\u09be\u09a4\u09c0\u09df \u0995\u09c3\u09b7\u09bf \u09af\u09be\u09b7\u09bf\u0995\u09c0\u0995\u09b0\u09a3 \u09a8\u09c0\u09b7\u09a4\u09ae\u09be\u09b2\u09be \u09e8\u09e6\u09e8\u09e6 \n \n \n \n \n \n \n \n \n \n\u0995\u09c3\u09b7\u09bf \u09ae\u09bf\u09a3\u09be\u09b2\u09df \n\u0997\u09a3\u09aa\u09cd\u09b0\u099c\u09be\u09a4\u09bf\u09c0 \u09ac\u09be\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09b0\u0995\u09be\u09b0 \n \n \n \n \n \n \n \n\u099c\u09be\u09a8\u09c1\u09df\u09be\u09b7\u09b0 \u09e8\u09e6\u09e8\u09e6 \n '
+EN Page 1 (first 400 chars, ascii-escaped):
+  ' \n \n \n \n \n \n \nNational Agricultural Mechanization Policy 2020 \n \n \n \n \n \n \n \n \nMinistry of Agriculture \nGovernment of the People\u2019s Republic of Bangladesh \n \n \n \n \n \n \nOctober 2020 \n \n'
+SUMMARY.md mentions:
+  '| **Tier 1: Clean Native Digital Text** | `agri_mechanization_2020` | Agriculture | \u099c\u09be\u09a4\u09c0\u09df \u0995\u09c3\u09b7\u09bf \u09af\u09be\u09a8\u09cd\u09a4\u09cd\u09b0\u09bf\u0995\u09c0\u0995\u09b0\u09a3 \u09a8\u09c0\u09a4\u09bf \u09e8\u09e6\u09e8\u09e6 (12 pgs) | National Agricultural Mechanization Policy 2020 (18 pgs) | 0.67 | `high` | Clean native extractable digital Unicode text on both sides |'
+  '### Sample 1: National Agricultural Mechanization Policy 2020 (`agri_mechanization_2020`)'
+  '| `agri_mechanization_2020` | Agriculture | 12 | 18 | 36 | 45 | 108 | 135 | 9.00 | 7.50 |'
+
+--- agri_seed_rules_2020 ---
+BN Source Path: data/raw_sources/agriculture/bn/seed_rules_2020_bn.pdf
+EN Source Path: data/raw_sources/agriculture/en/seed_rules_2020_en.pdf
+BN Page Count : 36
+EN Page Count : 39
+BN Page 1 (first 400 chars, ascii-escaped):
+  ' \n\u2020iwR\xf7vW\xa9 bs wW Gx1  \n evsjv\u2021`k  \u2020M\u2021RU  \nAwZwi\xb3 msL\xa8v \nKZ\u2026\xa9c\xff KZ\u2026\xa9K c\xd6KvwkZ \n \ng\xbdjevi, Ryb 9, 2020  \nMYc\xd6RvZ\u0161\xbfx evsjv\u2021`k miKvi \nK\u2026wl g\u0161\xbfYvjq \nexR AbywefvM \nc\xd6\xc1vcb \nZvwiL: 9 \u02c6P\xce 1426 e\xbdv\xe3/23 gvP\xa9 2020 wL\xaa\xf7v\xe3 \nGm, Avi, I bs 94xAvBb/2020 |\uf8e7exR AvBb, 2018 (2018 m\u2021bi 6 bs AvBb) Gi \naviv 31 G c\xd6`\xcb \xffgZve\u2021j miKvi wbg\u0153i\u0192c wewagvjv c\xd6Yqb Kwij, h_v :\uf8e7 \n1| wk\u2021ivbvg |\uf8e7GB wewagvjv exR wewagvjv, 2020 bv\u2021g Awfwn'
+EN Page 1 (first 400 chars, ascii-escaped):
+  ' \n \n \n \n \n \n \nTHIS REPORT CONTAINS ASSESSMENTS OF COMMODITY AND TRADE ISSUES MADE BY USDA STAFF \nAND NOT NECESSARILY STATEMENTS OF OFFICIAL U.S. GOVERNMENT POLICY \n \nVoluntary Report \u2013 Voluntary - Public Distribution   Date:   December 13, 2022 \n        Report Number: BG2022-0009 \n \nReport Name: Bangladesh Seed Rules 2020 \nCountry: Bangladesh \nPost:  Dhaka \nReport Category:   Planting Seeds, Sanit'
+SUMMARY.md mentions:
+  '| **Tier 2: Usable via Recovered Bijoy Unicode** | `agri_seed_rules_2020` | Agriculture | \u09ac\u09c0\u099c \u09ac\u09bf\u09a7\u09bf\u09ae\u09be\u09b2\u09be \u09e8\u09e6\u09e8\u09e6 (36 pgs) | Bangladesh Seed Rules 2020 (39 pgs) | 0.92 | `medium` | **Converted**: 100% of Bangla text pages cleanly recovered from SutonnyMJ to Unicode in `converted_text/` |'
+  '### Sample 5: Bangladesh Seed Rules 2020 (`agri_seed_rules_2020`)'
+  '* **Bangla Passage (`converted_text/agri_seed_rules_2020_converted.txt`, Gazette p. 2)**:'
+  '| `agri_seed_rules_2020` | Agriculture | 36 | 39 | 47 | 59 | 141 | 177 | 3.92 | 4.54 |'
+
+--- disaster_sod_2019 ---
+BN Source Path: data/raw_sources/disaster/bn/sod_2019_bn.pdf
+EN Source Path: data/raw_sources/disaster/en/sod_2019_en.pdf
+BN Page Count : 388
+EN Page Count : 439
+BN Page 1 (first 400 chars, ascii-escaped):
+  ''
+EN Page 1 (first 400 chars, ascii-escaped):
+  ' \n \n'
+SUMMARY.md mentions:
+  '| | `disaster_sod_2019` | Disaster | \u09a6\u09c1\u09b0\u09cd\u09af\u09cb\u0997 \u09ac\u09bf\u09b7\u09af\u09bc\u0995 \u09b8\u09cd\u09a5\u09be\u09af\u09bc\u09c0 \u0986\u09a6\u09c7\u09b6\u09be\u09ac\u09b2\u09c0 \u09e8\u09e6\u09e7\u09ef (388 pgs) | Standing Orders on Disaster 2019 (439 pgs) | 0.88 | `high` | Clean native extractable digital Unicode text on both sides |'
+  '### Sample 2: Standing Orders on Disaster 2019 (`disaster_sod_2019`)'
+  '| `disaster_sod_2019` | Disaster | 388 | 439 | 540 | 621 | 1,609 | 1,846 | 4.15 | 4.21 |'
+
+--- disaster_displacement_nap_2022 ---
+BN Source Path: data/raw_sources/disaster/bn/nap_displacement_2022_2042_bn.pdf
+EN Source Path: data/raw_sources/disaster/en/nap_displacement_2022_2042_en.pdf
+BN Page Count : 91
+EN Page Count : 109
+BN Page 1 (first 400 chars, ascii-escaped):
+  'ev\xaf\xcdPz\xa8wZ e\xa8e\xaf\u2019vcbv welqK RvZxq \u2021K\u0160kjc\xce ev\xaf\xcdevq\u2021b \nRvZxq Kg\xa9cwiK\xedbv 2022-2042 \n`y\u2021h\xa9vM e\xa8e\xaf\u2019vcbv I \xcevY g\u0161\xbfYvjq \nMYc\xd6RvZ\u0161\xbfx evsjv\u2021`k miKvi '
+EN Page 1 (first 400 chars, ascii-escaped):
+  ''
+SUMMARY.md mentions:
+  '| | `disaster_displacement_nap_2022` | Disaster | \u09ac\u09be\u09b8\u09cd\u09a4\u09c1\u099a\u09cd\u09af\u09c1\u09a4\u09bf \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be \u09ac\u09bf\u09b7\u09df\u0995 \u099c\u09be\u09a4\u09c0\u09df \u0995\u09b0\u09cd\u09ae\u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be (91 pgs) | National Action Plan on Displacement Management (109 pgs) | 0.83 | `high` | Clean native extractable digital Unicode text on both sides |'
+  '### Sample 4: National Action Plan for Displacement 2022 (`disaster_displacement_nap_2022`)'
+  '| `disaster_displacement_nap_2022` | Disaster | 91 | 109 | 151 | 150 | 451 | 449 | 4.96 | 4.12 |'
+
+--- disaster_displacement_strat_2021 ---
+BN Source Path: data/raw_sources/disaster/bn/strategy_displacement_2021_bn.pdf
+EN Source Path: data/raw_sources/disaster/en/strategy_displacement_2021_en.pdf
+BN Page Count : 54
+EN Page Count : 64
+BN Page 1 (first 400 chars, ascii-escaped):
+  ''
+EN Page 1 (first 400 chars, ascii-escaped):
+  ''
+SUMMARY.md mentions:
+  '| | `disaster_displacement_strat_2021` | Disaster | \u0985\u09ad\u09cd\u09af\u09a8\u09cd\u09a4\u09b0\u09c0\u09a3 \u09ac\u09be\u09b8\u09cd\u09a4\u09c1\u099a\u09cd\u09af\u09c1\u09a4\u09bf \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be \u09ac\u09bf\u09b7\u09df\u0995 \u099c\u09be\u09a4\u09c0\u09df \u0995\u09cc\u09b6\u09b2\u09aa\u09a4\u09cd\u09b0 (54 pgs) | National Strategy on Internal Displacement Management (64 pgs) | 0.84 | `medium` | **Converted**: 100% of Bangla text pages cleanly recovered from SutonnyMJ to Unicode in `converted_text/` |'
+  '| `disaster_displacement_strat_2021` | Disaster | 54 | 64 | 85 | 93 | 252 | 278 | 4.67 | 4.34 |'
+
+--- disaster_emcrp_rpf ---
+BN Source Path: data/raw_sources/disaster/bn/rpf_emcrp_bn.pdf
+EN Source Path: data/raw_sources/disaster/en/rpf_emcrp_en.pdf
+BN Page Count : 43
+EN Page Count : 59
+BN Page 1 (first 400 chars, ascii-escaped):
+  ' \n   \n\u0997\u09a3\u09aa\u09cd\u09b0\u099c\u09be\u09a4\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09ab\u09be\u09be\u0982\u09b0\u09be\u09a6\u09a6\u09b1 \u09b3\u09af\u0995\u09be\u09af \n \n \n\u09be\u0986\u09ad\u09be\u09a6\u099c\u09c7\u09a8\u09cd\u09b8\u09c0 \u09ad\u09be\u09b2\u09cd\u099f\u09bf \u09b8\u09b3\u0995\u09cd\u099f\u09af \u09b8\u09af\u09be\u09b2\u09cd\u099f\u09b4\u0999\u09cd\u0997\u09be \u0995\u09cd\u09b0\u09be\u09be\u0986\u09b2\u09cd\u099f\u09b3\u09b3 \u09b8\u09af\u09b3\u09a9\u09a8\u09cd\u09b8 \u09aa\u09cd\u09b0\u09a6\u099c\u0995\u09cd\u099f (\u09be\u0986\u098f\u09ad\u09b2\u09cd\u099f\u09b3\u09be\u0985\u09af\u09b2\u09cd\u099f\u09a9) \n \n \n \n\u09a9\u09c1\u09a8\u09ab\u09c7\u09be\u09b3\u09a8 \u09a8\u09c0\u09b2\u09cd\u099f\u09a4\u09ad\u09be\u09b0\u09be \u0995\u09be\u09a0\u09be\u09a6\u09ad\u09be  \n\u09b2\u09cd\u099f\u09af\u09a6\u09b3\u09a6\u09c7\u09b0\u09a6\u09ad\u09a8\u09cd\u09c7 \u09a9\u09b2\u09cd\u099f\u09b0\u09b2\u09cd\u099f\u09b3 \u09b8\u09c7\u09ad\u0991\u09df\u09be\u0995\u09c7 (\u09be\u0985\u09af\u09b2\u09cd\u099f\u09a9\u098f\u09aa)  \n \n \n \n \n \n\u09b8\u09ad \u09e8\u09e6\u09e7\u09ef \n \n \n \n \n \n \n \n \n \n\u09ab\u09be\u09b8\u09cd\u09a4\u09ab\u09be\u09df\u09a8\u0995\u09be\u09af\u09c0 \u09aa\u09cd\u09b0\u09b2\u09cd\u099f\u09a4\u09b7\u09cd\u09a0\u09be\u09a8\u09be\u0983  \n\u09b0\u09c3\u09a6\u09ae\u09c7\u09be\u0997 \u09ab\u09af\u09ab\u09b8\u09cd\u09a5\u09be\u09a9\u09a8\u09be \u0991 \u09a4\u09cd\u09b0\u09be\u09a3 \u09ad\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3\u09be\u09b0\u09df (\u09b2\u09cd\u099f\u09ad\u09b2\u09cd\u099f\u09a8\u09b2\u09cd\u099f\u09bf \u09be\u0984\u09ab \u09b2\u09cd\u099f\u09bf\u099c\u09be\u09b8\u09cd\u099f\u09be\u09af \u09ad\u09af\u09be\u09a6\u09a8\u099c\u09a6\u09ad\u09a8\u09cd\u09c7 \u098f\u09a3\u09cd\u09a1 \u09b2\u09cd\u099f\u09af\u09b2\u09cd\u099f\u09b0\u09aa, \u098f\u09ad\u0991\u09b2\u09cd\u099f\u09bf\u098f\u09ad\u09be\u0985\u09af) \n\u09b8\u09cd\u09a5\u09be\u09a8\u09c0\u09df \u09b3'
+EN Page 1 (first 400 chars, ascii-escaped):
+  ' \n \n \n \n \n \nGovernment of the People\u2019s Republic of Bangladesh \n \n \n \n \n \nEmergency Multi-Sector Rohingya Crisis Response Project (EMCRP)  \n \n \n \n \nResettlement Policy Framework  \n \n \n \n \n \n \nImplementing Agencies: \nMinistry of Disaster Management and Relief (MoDMR) \nLocal Government Engineering Department (LGED) \nDepartment of Public Health Engineering (DPHE) \n \n \n \n \nMay 2019 \n  \n'
+SUMMARY.md mentions:
+  '| | `disaster_emcrp_rpf` | Disaster | \u099c\u09b0\u09c1\u09b0\u09bf \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf\u09a4\u09c7 \u09b0\u09cb\u09b9\u09bf\u0999\u09cd\u0997\u09be \u09b8\u0982\u0995\u099f \u09ae\u09cb\u0995\u09be\u09ac\u09bf\u09b2\u09be \u09aa\u09cd\u09b0\u0995\u09b2\u09cd\u09aa - RPF (43 pgs) | Emergency Multi-Sector Rohingya Crisis Response - RPF (59 pgs) | 0.73 | `high` | Clean native extractable digital Unicode text on both sides |'
+  '### Sample 3: EMCRP Resettlement Policy Framework (`disaster_emcrp_rpf`)'
+  '| `disaster_emcrp_rpf` | Disaster | 43 | 59 | 135 | 150 | 402 | 447 | 9.35 | 7.58 |'
+
+--- disaster_emcrp_esmf ---
+BN Source Path: data/raw_sources/disaster/bn/esmf_emcrp_bn.pdf
+EN Source Path: data/raw_sources/disaster/en/esmf_emcrp_en.pdf
+BN Page Count : 144
+EN Page Count : 228
+BN Page 1 (first 400 chars, ascii-escaped):
+  'i  \n \n \n\u0995\u09a3\u09aa\u09cd\u09b0\u099a\u09be\u09a4\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09ab\u09be\u09be\u0982\u09b0\u09be\u09a6\u09a6\u09b1 \u09b3\u09af\u0993\u09be\u09af \n \n \n\u09be\u0986\u09ad\u09be\u09a6\u099a\u09c7\u09a8\u09cd\u09ab\u09c0 \u09ad\u09be\u09b2\u09cd\u099f\u09bf \u09b8\u09b3\u0995\u09cd\u099f\u09af \u09b8\u09af\u09be\u09b2\u09cd\u099f\u09b4\u0999\u09cd\u0997\u09be \u0995\u09cd\u09b0\u09be\u09be\u0986\u09b2\u09cd\u099f\u09b3\u09b3 \u09b8\u09af\u09b3\u09a9\u09a8\u09cd\u09ab \u09aa\u09cd\u09b0\u09a6\u099a\u0995\u09cd\u099f (\u09be\u0986\u098f\u09ad\u09b2\u09cd\u099f\u09b3\u09be\u0985\u09af\u09b2\u09cd\u099f\u09a9) \n \n \n \n \n\u098f\u09a8\u09ac\u09be\u09d2\u09af\u09a8\u09a6\u09ad\u09a8\u09cd\u099f\u09be\u09b0 \u098f\u09a3\u09cd\u09a1 \u09b8\u09b3\u09be\u09b1\u09be\u09b0 \u09ad\u09af\u09be\u09a6\u09a8\u099a\u09a6\u09ad\u09a8\u09cd\u099f \u09b8\u09c7\u09ad\u0991\u09d2\u09be\u0993\u09c7 (\u09be\u0986\u098f\u09b3\u098f\u09ad\u098f\u09aa) \n(\u09a9\u09b2\u09cd\u099f\u09af\u09a6\u09ab\u09b1\u0995\u09a4 \u098f\u09ab\u09be\u0982 \u09b3\u09be\u09ad\u09be\u09b2\u09cd\u099f\u099a\u0993 \u09ab\u09af\u09ab\u09b8\u09cd\u09a5\u09be\u09a9\u09a8\u09be \u0993\u09be\u09a0\u09be\u09a6\u09ad\u09be) \n \n \n \n \n \n \n \n \n \n \n \n\u09b8\u09ad \u09e8\u09e6\u09e7\u09ef \n \n \n\u09ab\u09be\u09b8\u09cd\u09a4\u09ab\u09be\u09d2\u09a8\u0993\u09be\u09af\u09c0 \u09aa\u09cd\u09b0\u09b2\u09cd\u099f\u09a4\u09b7\u09cd\u09a0\u09be\u09a8\u09be\u0983  \n\u09b0\u09c3\u09a6\u09ae\u09c7\u09be\u0995 \u09ab\u09af\u09ab\u09b8\u09cd\u09a5\u09be\u09a9\u09a8\u09be \u0991 \u09a4\u09cd\u09b0\u09be\u09a3 \u09ad\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3\u09be\u09b0\u09d2 (\u09b2\u09cd\u099f\u09ad\u09b2\u09cd\u099f\u09a8\u09b2\u09cd\u099f\u09b8\u09cd\u09af \u09be\u0984\u09ab \u09b2\u09cd\u099f\u09a1\u099a\u09be\u09b8\u09cd\u099f\u09be\u09af \u09ad\u09af\u09be\u09a6\u09a8\u099a\u09a6\u09ad\u09a8\u09cd\u099f \u098f\u09a3\u09cd\u09a1 \u09b2'
+EN Page 1 (first 400 chars, ascii-escaped):
+  ' \n \n \n \nGovernment of the People\u2019s Republic of Bangladesh \n \n \n \n \nEmergency Multi-Sector Rohingya Crisis Response Project (EMCRP) \n \n \nEnvironmental and Social Management Framework  \n \n \n \n \n \nJANUARY 2019 \n \nImplementing Agencies: \nMinistry of Disaster Management and Relief (MoDMR) \nLocal Government Engineering Department (LGED) \nDepartment of Public Health Engineering (DPHE) \n \n'
+SUMMARY.md mentions:
+  '| | `disaster_emcrp_esmf` | Disaster | \u099c\u09b0\u09c1\u09b0\u09bf \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf\u09a4\u09c7 \u09b0\u09cb\u09b9\u09bf\u0999\u09cd\u0997\u09be \u09b8\u0982\u0995\u099f \u09ae\u09cb\u0995\u09be\u09ac\u09bf\u09b2\u09be \u09aa\u09cd\u09b0\u0995\u09b2\u09cd\u09aa - ESMF (144 pgs) | Emergency Multi-Sector Rohingya Crisis Response - ESMF (228 pgs) | 0.63 | `high` | Clean native extractable digital Unicode text on both sides |'
+  '| `disaster_emcrp_esmf` | Disaster | 144 | 228 | 383 | 613 | 1,123 | 1,830 | 7.80 | 8.03 |'
+
+--- edu_nep_2010 ---
+BN Source Path: data/raw_sources/education/bn/national_education_policy_2010_bn.pdf
+EN Source Path: data/raw_sources/education/en/national_education_policy_2010_en.pdf
+BN Page Count : 79
+EN Page Count : 86
+BN Page 1 (first 400 chars, ascii-escaped):
+  ''
+EN Page 1 (first 400 chars, ascii-escaped):
+  "National\nEducation Policy\n2010\nMinistry of Education\nGovernment of the People's Republic of Bangladesh"
+SUMMARY.md mentions:
+  '| **Tier 4: Verified Pairs Requiring OCR / Conversion** | `edu_nep_2010` | Education | \u099c\u09be\u09a4\u09c0\u09df \u09b6\u09bf\u0995\u09cd\u09b7\u09be\u09a8\u09c0\u09a4\u09bf \u09e8\u09e6\u09e7\u09e6 (79 pgs) | National Education Policy 2010 (86 pgs) | 0.92 | `medium` | **Newly Paired**: Sourced from SHED + UNESCO Planipolis. Exact 1:1 chapter match across all 28 chapters. EN is clean digital; BN requires OCR/Bijoy conversion |'
+  '## 4. National Education Policy 2010 Pairing Analysis (`edu_nep_2010`)'
+  '| `edu_nep_2010` | Education | 79 | 86 | 192 | 236 | 575 | 708 | 7.28 | 8.23 |'

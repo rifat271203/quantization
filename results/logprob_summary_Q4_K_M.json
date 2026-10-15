@@ -1,0 +1,32 @@
+[
+  {
+    "tier": "Q4_K_M",
+    "bpw": 4.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 98,
+    "accuracy_pct": 32.67,
+    "wilson_ci_95": [
+      27.61,
+      38.16
+    ],
+    "hallucination_pct": 67.33,
+    "avg_predictive_entropy": 0.099,
+    "avg_latency_ms": 4034.52
+  },
+  {
+    "tier": "Q4_K_M",
+    "bpw": 4.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 134,
+    "accuracy_pct": 44.67,
+    "wilson_ci_95": [
+      39.14,
+      50.32
+    ],
+    "hallucination_pct": 55.33,
+    "avg_predictive_entropy": 0.095,
+    "avg_latency_ms": 3540.77
+  }
+]

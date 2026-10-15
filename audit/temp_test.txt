@@ -1,0 +1,1 @@
+This is a test passage for measuring perplexity. Gemma 3 model will process this text.

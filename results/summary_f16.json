@@ -1,0 +1,22 @@
+[
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "bangla",
+    "evaluated_items": 120,
+    "accuracy_pct": 38.33,
+    "hallucination_pct": 61.67,
+    "unparseable_pct": 0.0,
+    "avg_latency_ms": 5880.0
+  },
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "english",
+    "evaluated_items": 300,
+    "accuracy_pct": 47.33,
+    "hallucination_pct": 49.67,
+    "unparseable_pct": 3.0,
+    "avg_latency_ms": 3869.57
+  }
+]

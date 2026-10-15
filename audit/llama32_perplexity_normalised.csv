@@ -1,0 +1,9 @@
+model,tier,bpw,language,part,ppl,std_error,bits_per_token,bits_per_char,bits_per_byte,rel_ppl_inc_vs_f16_pct,elapsed_s
+meta-llama/Llama-3.2-1B-Instruct,f16,16.0,english,part1,17.6992,0.7715,4.1456,0.8338,0.8338,0.0,91.8
+meta-llama/Llama-3.2-1B-Instruct,Q4_K_M,4.5,english,part1,17.9834,0.7828,4.1686,0.8384,0.8384,1.61,36.3
+meta-llama/Llama-3.2-1B-Instruct,Q3_K_M,3.5,english,part1,18.7947,0.8254,4.2323,0.8512,0.8512,6.19,40.7
+meta-llama/Llama-3.2-1B-Instruct,Q2_K,2.5,english,part1,27.2475,1.2283,4.7681,0.959,0.959,53.95,35.9
+meta-llama/Llama-3.2-1B-Instruct,f16,16.0,bangla,part1,2.6856,0.0256,1.4252,1.7007,0.644,0.0,524.8
+meta-llama/Llama-3.2-1B-Instruct,Q4_K_M,4.5,bangla,part1,2.7527,0.0262,1.4608,1.7431,0.66,2.5,222.6
+meta-llama/Llama-3.2-1B-Instruct,Q3_K_M,3.5,bangla,part1,2.9652,0.0285,1.5681,1.8712,0.7085,10.41,235.7
+meta-llama/Llama-3.2-1B-Instruct,Q2_K,2.5,bangla,part1,6.7406,0.0817,2.7529,3.2848,1.2438,150.99,254.3

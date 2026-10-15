@@ -1,0 +1,32 @@
+[
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 97,
+    "accuracy_pct": 32.33,
+    "wilson_ci_95": [
+      27.29,
+      37.82
+    ],
+    "hallucination_pct": 67.67,
+    "avg_predictive_entropy": 0.077,
+    "avg_latency_ms": 4446.19
+  },
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 142,
+    "accuracy_pct": 47.33,
+    "wilson_ci_95": [
+      41.75,
+      52.98
+    ],
+    "hallucination_pct": 52.67,
+    "avg_predictive_entropy": 0.089,
+    "avg_latency_ms": 3315.37
+  }
+]

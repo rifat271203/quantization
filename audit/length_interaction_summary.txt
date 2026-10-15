@@ -1,0 +1,74 @@
+==============================================================================================================
+TASK 3: LANGUAGE X LENGTH INTERACTION ANALYSIS WITH PASSAGE-CLUSTERED STATISTICS
+==============================================================================================================
+Total hypothesis tests run: 24 regressions (2 models x 2 metrics x 6 tiers)
+Clusters: 488 unique document passages
+Sample size per regression: 1,800 observations (900 Bangla + 900 English paired items)
+Cluster bootstrap iterations: 2,000 resamples of 488 passages (seed 42)
+Multiple testing adjustment: Holm-Bonferroni across the 6 tiers per model x metric family
+
+--------------------------------------------------------------------------------------------------------------
+1. TOKEN LENGTH INTERACTION (per 100 model-specific tokens)
+--------------------------------------------------------------------------------------------------------------
+Model                  | Tier   | BPW  | Beta_Int  | SE(Clust) | Boot 95% CI         | OR_Int   | p(raw)   | p(Holm)  | BN Slope p
+--------------------------------------------------------------------------------------------------------------
+Gemma-3-1B-IT          | Q8_0   | 8.5  | +1.0613   | 0.7149    | [-0.3106, 2.5897]   | 2.8901   | 0.1377   | 0.8259   | 0.6687    
+Gemma-3-1B-IT          | Q6_K   | 6.5  | +0.1055   | 0.4264    | [-0.7822, 0.9454]   | 1.1112   | 0.8047   | 1.0000   | 0.2511    
+Gemma-3-1B-IT          | Q5_K_M | 5.5  | -0.2935   | 0.3316    | [-0.9238, 0.3559]   | 0.7456   | 0.3761   | 1.0000   | 0.7465    
+Gemma-3-1B-IT          | Q4_K_M | 4.5  | +0.0792   | 0.2810    | [-0.4636, 0.6464]   | 1.0824   | 0.7780   | 1.0000   | 0.8647    
+Gemma-3-1B-IT          | Q3_K_M | 3.5  | +0.0661   | 0.2891    | [-0.5016, 0.6285]   | 1.0684   | 0.8191   | 1.0000   | 0.2838    
+Gemma-3-1B-IT          | Q2_K   | 2.5  | +0.1704   | 0.2619    | [-0.3533, 0.6904]   | 1.1857   | 0.5154   | 1.0000   | 0.0098    
+Llama-3.2-1B-Instruct  | Q8_0   | 8.5  | -0.0579   | 0.4602    | [-0.8902, 0.9642]   | 0.9437   | 0.8998   | 1.0000   | 0.7269    
+Llama-3.2-1B-Instruct  | Q6_K   | 6.5  | +0.7302   | 0.3181    | [0.1080, 1.3644]    | 2.0755   | 0.0217   | 0.1301   | 0.2932    
+Llama-3.2-1B-Instruct  | Q5_K_M | 5.5  | -0.1236   | 0.3108    | [-0.7215, 0.5123]   | 0.8838   | 0.6910   | 1.0000   | 0.2431    
+Llama-3.2-1B-Instruct  | Q4_K_M | 4.5  | -0.1854   | 0.2457    | [-0.6979, 0.3254]   | 0.8307   | 0.4503   | 1.0000   | 0.6676    
+Llama-3.2-1B-Instruct  | Q3_K_M | 3.5  | +0.2314   | 0.2177    | [-0.1840, 0.6726]   | 1.2604   | 0.2878   | 1.0000   | 0.3843    
+Llama-3.2-1B-Instruct  | Q2_K   | 2.5  | +0.0670   | 0.2024    | [-0.3278, 0.4808]   | 1.0693   | 0.7405   | 1.0000   | 0.0523    
+
+--------------------------------------------------------------------------------------------------------------
+2. CHARACTER LENGTH INTERACTION (per 100 passage characters - constant physical text length)
+--------------------------------------------------------------------------------------------------------------
+Model                  | Tier   | BPW  | Beta_Int  | SE(Clust) | Boot 95% CI         | OR_Int   | p(raw)   | p(Holm)  | BN Slope p
+--------------------------------------------------------------------------------------------------------------
+Gemma-3-1B-IT          | Q8_0   | 8.5  | +0.0933   | 0.1607    | [-0.2215, 0.4193]   | 1.0978   | 0.5616   | 1.0000   | 0.8654    
+Gemma-3-1B-IT          | Q6_K   | 6.5  | -0.0054   | 0.0934    | [-0.2019, 0.1848]   | 0.9946   | 0.9537   | 1.0000   | 0.2240    
+Gemma-3-1B-IT          | Q5_K_M | 5.5  | -0.0829   | 0.0739    | [-0.2251, 0.0677]   | 0.9204   | 0.2619   | 1.0000   | 0.9999    
+Gemma-3-1B-IT          | Q4_K_M | 4.5  | -0.0141   | 0.0632    | [-0.1378, 0.1222]   | 0.9860   | 0.8234   | 1.0000   | 0.5954    
+Gemma-3-1B-IT          | Q3_K_M | 3.5  | +0.0109   | 0.0673    | [-0.1142, 0.1533]   | 1.0110   | 0.8709   | 1.0000   | 0.3056    
+Gemma-3-1B-IT          | Q2_K   | 2.5  | +0.0291   | 0.0631    | [-0.0975, 0.1506]   | 1.0296   | 0.6443   | 1.0000   | 0.0523    
+Llama-3.2-1B-Instruct  | Q8_0   | 8.5  | -0.0493   | 0.1299    | [-0.3234, 0.2182]   | 0.9519   | 0.7046   | 1.0000   | 0.7822    
+Llama-3.2-1B-Instruct  | Q6_K   | 6.5  | +0.1983   | 0.0991    | [-0.0052, 0.3907]   | 1.2193   | 0.0455   | 0.2729   | 0.2427    
+Llama-3.2-1B-Instruct  | Q5_K_M | 5.5  | -0.1012   | 0.0834    | [-0.2610, 0.0747]   | 0.9038   | 0.2253   | 0.9011   | 0.2253    
+Llama-3.2-1B-Instruct  | Q4_K_M | 4.5  | -0.0194   | 0.0711    | [-0.1639, 0.1280]   | 0.9808   | 0.7853   | 1.0000   | 0.6473    
+Llama-3.2-1B-Instruct  | Q3_K_M | 3.5  | +0.0555   | 0.0595    | [-0.0575, 0.1722]   | 1.0571   | 0.3512   | 1.0000   | 0.4182    
+Llama-3.2-1B-Instruct  | Q2_K   | 2.5  | +0.0987   | 0.0618    | [-0.0159, 0.2239]   | 1.1037   | 0.1102   | 0.5512   | 0.0518    
+
+==============================================================================================================
+3. COMPARISON: GEMMA 3 (1.35x FERTILITY) VS LLAMA 3.2 (4.68x FERTILITY)
+==============================================================================================================
+Question: Is the Bengali length effect larger in Llama (where BN passage token count is ~4.7x larger)?
+
+--- TIER: Q4_K_M (4.5 bpw) ---
+  Token Metric (per 100 model-specific tokens):
+    Gemma 3:   Beta_BN_slope = +0.0326 (p = 0.8647) | Beta_Int = +0.0792 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.0185 (p = 0.6676) | Beta_Int = -0.1854 (p_Holm = 1.0000)
+  Character Metric (per 100 chars, identical physical length):
+    Gemma 3:   Beta_BN_slope = +0.0257 (p = 0.5954) | Beta_Int = -0.0141 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.0238 (p = 0.6473) | Beta_Int = -0.0194 (p_Holm = 1.0000)
+
+--- TIER: Q3_K_M (3.5 bpw) ---
+  Token Metric (per 100 model-specific tokens):
+    Gemma 3:   Beta_BN_slope = +0.1890 (p = 0.2838) | Beta_Int = +0.0661 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.0338 (p = 0.3843) | Beta_Int = +0.2314 (p_Holm = 1.0000)
+  Character Metric (per 100 chars, identical physical length):
+    Gemma 3:   Beta_BN_slope = +0.0472 (p = 0.3056) | Beta_Int = +0.0109 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.0381 (p = 0.4182) | Beta_Int = +0.0555 (p_Holm = 1.0000)
+
+--- TIER: Q2_K (2.5 bpw) ---
+  Token Metric (per 100 model-specific tokens):
+    Gemma 3:   Beta_BN_slope = +0.4740 (p = 0.0098) | Beta_Int = +0.1704 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.0831 (p = 0.0523) | Beta_Int = +0.0670 (p_Holm = 1.0000)
+  Character Metric (per 100 chars, identical physical length):
+    Gemma 3:   Beta_BN_slope = +0.0924 (p = 0.0523) | Beta_Int = +0.0291 (p_Holm = 1.0000)
+    Llama 3.2: Beta_BN_slope = +0.1010 (p = 0.0518) | Beta_Int = +0.0987 (p_Holm = 0.5512)
+

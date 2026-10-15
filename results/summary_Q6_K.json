@@ -1,0 +1,22 @@
+[
+  {
+    "tier": "Q6_K",
+    "bpw": 6.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "accuracy_pct": 34.67,
+    "hallucination_pct": 65.0,
+    "unparseable_pct": 0.33,
+    "avg_latency_ms": 4362.0
+  },
+  {
+    "tier": "Q6_K",
+    "bpw": 6.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "accuracy_pct": 46.0,
+    "hallucination_pct": 50.0,
+    "unparseable_pct": 4.0,
+    "avg_latency_ms": 2829.93
+  }
+]

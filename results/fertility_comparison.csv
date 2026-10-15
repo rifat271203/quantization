@@ -1,5 +1,5 @@
 model,avg_bangla_fertility,avg_english_fertility,bangla_english_ratio,status,error
-google/gemma-3-1b-it,1.594815,1.128440,1.413292,ok,
-Qwen/Qwen3-0.6B,7.346971,1.168810,6.285854,ok,
-Qwen/Qwen3-1.7B,7.346971,1.168810,6.285854,ok,
-meta-llama/Llama-3.2-1B-Instruct,8.386799,1.168810,7.175501,ok,
+google/gemma-3-1b-it,1.613421,1.141750,1.413113,ok,
+Qwen/Qwen3-0.6B,7.639919,1.164366,6.561440,ok,
+Qwen/Qwen3-1.7B,7.639919,1.164366,6.561440,ok,
+meta-llama/Llama-3.2-1B-Instruct,8.705272,1.164366,7.476403,ok,

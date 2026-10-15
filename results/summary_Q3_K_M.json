@@ -1,0 +1,12 @@
+[
+  {
+    "tier": "Q3_K_M",
+    "bpw": 3.5,
+    "language": "english",
+    "evaluated_items": 137,
+    "accuracy_pct": 45.26,
+    "hallucination_pct": 50.36,
+    "unparseable_pct": 4.38,
+    "avg_latency_ms": 2745.24
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 97,
+    "accuracy_pct": 32.33,
+    "wilson_ci_95": [
+      27.29,
+      37.82
+    ],
+    "hallucination_pct": 67.67,
+    "avg_predictive_entropy": 0.077,
+    "avg_latency_ms": 4446.19
+  },
+  {
+    "tier": "f16",
+    "bpw": 16.0,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 142,
+    "accuracy_pct": 47.33,
+    "wilson_ci_95": [
+      41.75,
+      52.98
+    ],
+    "hallucination_pct": 52.67,
+    "avg_predictive_entropy": 0.089,
+    "avg_latency_ms": 3315.37
+  },
+  {
+    "tier": "Q8_0",
+    "bpw": 8.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 99,
+    "accuracy_pct": 33.0,
+    "wilson_ci_95": [
+      27.92,
+      38.51
+    ],
+    "hallucination_pct": 67.0,
+    "avg_predictive_entropy": 0.078,
+    "avg_latency_ms": 3984.01
+  },
+  {
+    "tier": "Q8_0",
+    "bpw": 8.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 137,
+    "accuracy_pct": 45.67,
+    "wilson_ci_95": [
+      40.12,
+      51.32
+    ],
+    "hallucination_pct": 54.33,
+    "avg_predictive_entropy": 0.076,
+    "avg_latency_ms": 3400.82
+  },
+  {
+    "tier": "Q6_K",
+    "bpw": 6.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 96,
+    "accuracy_pct": 32.0,
+    "wilson_ci_95": [
+      26.98,
+      37.48
+    ],
+    "hallucination_pct": 68.0,
+    "avg_predictive_entropy": 0.094,
+    "avg_latency_ms": 3552.85
+  },
+  {
+    "tier": "Q6_K",
+    "bpw": 6.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 140,
+    "accuracy_pct": 46.67,
+    "wilson_ci_95": [
+      41.1,
+      52.32
+    ],
+    "hallucination_pct": 53.33,
+    "avg_predictive_entropy": 0.088,
+    "avg_latency_ms": 2937.3
+  },
+  {
+    "tier": "Q5_K_M",
+    "bpw": 5.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 103,
+    "accuracy_pct": 34.33,
+    "wilson_ci_95": [
+      29.19,
+      39.87
+    ],
+    "hallucination_pct": 65.67,
+    "avg_predictive_entropy": 0.08,
+    "avg_latency_ms": 6970.86
+  },
+  {
+    "tier": "Q5_K_M",
+    "bpw": 5.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 142,
+    "accuracy_pct": 47.33,
+    "wilson_ci_95": [
+      41.75,
+      52.98
+    ],
+    "hallucination_pct": 52.67,
+    "avg_predictive_entropy": 0.066,
+    "avg_latency_ms": 3990.69
+  },
+  {
+    "tier": "Q4_K_M",
+    "bpw": 4.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 98,
+    "accuracy_pct": 32.67,
+    "wilson_ci_95": [
+      27.61,
+      38.16
+    ],
+    "hallucination_pct": 67.33,
+    "avg_predictive_entropy": 0.099,
+    "avg_latency_ms": 4034.52
+  },
+  {
+    "tier": "Q4_K_M",
+    "bpw": 4.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 134,
+    "accuracy_pct": 44.67,
+    "wilson_ci_95": [
+      39.14,
+      50.32
+    ],
+    "hallucination_pct": 55.33,
+    "avg_predictive_entropy": 0.095,
+    "avg_latency_ms": 3540.77
+  },
+  {
+    "tier": "Q3_K_M",
+    "bpw": 3.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 91,
+    "accuracy_pct": 30.33,
+    "wilson_ci_95": [
+      25.41,
+      35.76
+    ],
+    "hallucination_pct": 69.67,
+    "avg_predictive_entropy": 0.144,
+    "avg_latency_ms": 1864.19
+  },
+  {
+    "tier": "Q3_K_M",
+    "bpw": 3.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 144,
+    "accuracy_pct": 48.0,
+    "wilson_ci_95": [
+      42.41,
+      53.64
+    ],
+    "hallucination_pct": 52.0,
+    "avg_predictive_entropy": 0.105,
+    "avg_latency_ms": 1623.19
+  },
+  {
+    "tier": "Q2_K",
+    "bpw": 2.5,
+    "language": "bangla",
+    "evaluated_items": 300,
+    "correct_items": 101,
+    "accuracy_pct": 33.67,
+    "wilson_ci_95": [
+      28.56,
+      39.19
+    ],
+    "hallucination_pct": 66.33,
+    "avg_predictive_entropy": 0.244,
+    "avg_latency_ms": 1914.61
+  },
+  {
+    "tier": "Q2_K",
+    "bpw": 2.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "correct_items": 136,
+    "accuracy_pct": 45.33,
+    "wilson_ci_95": [
+      39.79,
+      50.99
+    ],
+    "hallucination_pct": 54.67,
+    "avg_predictive_entropy": 0.215,
+    "avg_latency_ms": 1640.33
+  }
+]

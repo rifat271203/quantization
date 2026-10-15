@@ -1,0 +1,22 @@
+[
+  {
+    "tier": "Q2_K",
+    "bpw": 2.5,
+    "language": "bangla",
+    "evaluated_items": 29,
+    "accuracy_pct": 27.59,
+    "hallucination_pct": 68.97,
+    "unparseable_pct": 3.45,
+    "avg_latency_ms": 3026.89
+  },
+  {
+    "tier": "Q2_K",
+    "bpw": 2.5,
+    "language": "english",
+    "evaluated_items": 300,
+    "accuracy_pct": 48.0,
+    "hallucination_pct": 51.67,
+    "unparseable_pct": 0.33,
+    "avg_latency_ms": 3102.12
+  }
+]
